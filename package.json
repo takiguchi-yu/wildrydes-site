@@ -1,0 +1,51 @@
+{
+  "private": true,
+  "name": "wildrydes-site",
+  "version": "1.0.0",
+  "description": "wildrydes-site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takiguchi-yu/wildrydes-site.git"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.6.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "depcheck": "depcheck",
+    "lint": "eslint --fix .",
+    "lint:ci": "eslint .",
+    "format": "prettier --write .",
+    "format:ci": "prettier --check ."
+  },
+  "devDependencies": {
+    "depcheck": "^1.4.3",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.2",
+    "simple-git-hooks": "^2.9.0",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": [
+      "git-secrets --scan"
+    ],
+    "*.(ts|tsx|js|jsx)": [
+      "npx eslint --fix"
+    ],
+    "*.(ts|tsx|js|jsx|json|html|yml|yaml|md|graphql|css|scss|less|vue|flow)": [
+      "npx prettier --write"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "amazonwebservices.aws-toolkit-vscode",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "AlexShen.classdiagram-ts",
+    "hediet.vscode-drawio",
+    "42Crunch.vscode-openapi",
+    "shd101wyy.markdown-preview-enhanced"
+  ]
+}

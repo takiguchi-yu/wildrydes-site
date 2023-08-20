@@ -1,6 +1,8 @@
 *.d.ts
 *.js
 !jest.config.js
+!next.config.js
+!postcss.config.js
 node_modules
 .DS_Store
 !.versionrc.js

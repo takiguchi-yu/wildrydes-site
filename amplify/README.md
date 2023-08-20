@@ -1,10 +1,4 @@
-## 前提条件
-
-#### Amplify CLI のインストール
-
-```sh
-npm install -g @aws-amplify/cli
-```
+## 静的ウェブサイトをホストする（AWS Amplify）
 
 #### Next.jsアプリケーションの作成
 
@@ -23,7 +17,7 @@ npm init next-app
 
 #### Amplify ホスティングの追加
 
-SSR アプリをデプロイするときは `Distribution Directory Path:` に `.next` を設定する。
+SSR アプリをデプロイするときは `Distribution Directory Path:` に `.next` が指定されていることを確認する。
 
 AWSマネジメントコンソールで GitHub ブランチに接続し設定をする。
 

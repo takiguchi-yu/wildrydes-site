@@ -6,8 +6,8 @@ wildrydes-site
 
 <!-- code_chunk_output -->
 
-- [① 静的ウェブホスティング](#1-静的ウェブホスティング)
-- [② ユーザー管理](#2-ユーザー管理)
+- [① 静的ウェブホスティング](#1-静的ウェブホスティングamplifyreadmemd)
+- [② ユーザー管理](#2-ユーザー管理cognitoreadmemd)
 - [③ サーバーレスバックエンド](#3-サーバーレスバックエンド)
 - [④ RESTful API](#4-restful-api)
 - [参考資料](#参考資料)
@@ -16,11 +16,11 @@ wildrydes-site
 
 ![](/doc/Architecture.drawio.png)
 
-#### ① 静的ウェブホスティング
+#### [① 静的ウェブホスティング](./amplify/README.md)
 
 AWS Amplify は、HTML、CSS、JavaScript、およびユーザーのブラウザに読み込まれたイメージファイルを含む静的なウェブリソースをホストします。
 
-#### ② ユーザー管理
+#### [② ユーザー管理](./cognito/README.md)
 
 Amazon Cognito は、バックエンド API を保護するためのユーザー管理機能と認証機能を提供します。
 

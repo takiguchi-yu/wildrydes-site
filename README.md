@@ -6,11 +6,10 @@ wildrydes-site
 
 <!-- code_chunk_output -->
 
-    - [① 静的ウェブホスティング](#1-静的ウェブホスティング)
-    - [② ユーザー管理](#2-ユーザー管理)
-    - [③ サーバーレスバックエンド](#3-サーバーレスバックエンド)
-    - [④ RESTful API](#4-restful-api)
-
+- [① 静的ウェブホスティング](#1-静的ウェブホスティング)
+- [② ユーザー管理](#2-ユーザー管理)
+- [③ サーバーレスバックエンド](#3-サーバーレスバックエンド)
+- [④ RESTful API](#4-restful-api)
 - [参考資料](#参考資料)
 
 <!-- /code_chunk_output -->
@@ -33,6 +32,6 @@ Amazon DynamoDB は、API の Lambda 関数によってデータを格納でき�
 
 ブラウザで実行される JavaScript は、Lambda と API Gateway を使用して構築されたパブリックバックエンド API からデータを送受信します。
 
-## 参考資料
+#### 参考資料
 
 - [サーバーレスのウェブアプリケーションを構築する](https://aws.amazon.com/jp/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
